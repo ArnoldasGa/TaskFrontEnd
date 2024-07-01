@@ -9,9 +9,8 @@ function Login() {
         navigate('/register')
     }
 
-    const login = () => {
+    const handleSubmit = async (e) => {
 
-        navigate('/main')
     }
 
     return (
@@ -27,7 +26,7 @@ function Login() {
                         <input type="password" id="passwordInput" name="passwordInput"></input>
                     </div>
                 </form>
-                <button className='registerButton'>Login</button>
+                <button type='submit' className='registerButton'>Login</button>
                 <button className='registerButton' onClick={register}>Register</button>
             </div>
         </div>

@@ -36,6 +36,7 @@ function Register() {
             
             if (response.ok) {
               alert('Registration successful!');
+              navigate('/login')
             } else {
                 let errorData;
                 const contentType = response.headers.get('content-type');
