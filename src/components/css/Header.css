@@ -1,0 +1,28 @@
+.header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header nav ul li {
+    margin: 0;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .logins {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    left:90%;
+  }
+  

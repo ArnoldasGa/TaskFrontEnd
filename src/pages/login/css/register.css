@@ -1,0 +1,31 @@
+.register {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.register form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.register form label {
+    display: block;
+}
+
+.register form input {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.registerButton {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inputRegister {
+    display: flex;
+    justify-content: space-between;
+}

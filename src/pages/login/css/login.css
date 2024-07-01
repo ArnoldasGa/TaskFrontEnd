@@ -1,0 +1,26 @@
+.login {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+  
+.login form label {
+    display: block;
+}
+  
+.login form input {
+    padding: 5px;
+    font-size: 14px;
+}
+
+button {
+    margin: 5%;
+    height: 40%;
+    width: 40%;
+}
