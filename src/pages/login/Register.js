@@ -1,5 +1,5 @@
 import './css/register.css';
-import { json, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 
 function Register() {
@@ -57,7 +57,6 @@ function Register() {
                   } else {
                     alert('Registration failed: ' + JSON.stringify(errorData));
                   }
-                    console.log(errorData);
             }
             } catch (error) {
               console.error('Error:', error);
